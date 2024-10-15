@@ -18,12 +18,12 @@ export default function Home() {
       }}
     >
       <div className="flex flex-col justify-center items-center h-full">
-        <h1 className="text-4xl md:text-4xl lg:text-4xl font-bold text-stone-700 text-center">
-          ¡Nos Casamos!
+        <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold text-stone-700 text-center">
+          ¡Te esperamos para celebrar con nosotros!
         </h1>
-        <p className="mt-4 text-base md:text-base lg:text-base text-stone-700 text-center">
+        {/* <p className="mt-4 text-base md:text-base lg:text-base text-stone-700 text-center">
           Te esperamos para celebrar con nosotros.
-        </p>
+        </p> */}
         <button
           className="mt-8 bg-stone-700 text-white py-2 px-4 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
           onClick={handleClick}

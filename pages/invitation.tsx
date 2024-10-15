@@ -49,35 +49,35 @@ const Invitation = () => {
       >
         <section className="flex flex-col justify-center items-center text-center p-4">
           <h1
-            className="text-9xl text-yellow-900 font-bold italic"
-            style={{ fontFamily: "'Qwitcher Grypen', cursive" }}
+            className="text-7xl text-yellow-900 font-bold italic"
+            style={{ fontFamily: "'Dancing Script', cursive" }}
           >
             ¡Nos casamos!
           </h1>
           <h2
-            className="text-8xl text-emerald-950 font-semibold italic"
-            style={{ fontFamily: "'Qwitcher Grypen', cursive" }}
+            className="text-5xl text-emerald-950 font-semibold italic mt-4"
+            style={{ fontFamily: "'Dancing Script', cursive" }}
           >
-            Viviana y Jhon
+            Viviana & Jhon
           </h2>
         </section>
       </div>
 
       {/* Sección de cuenta regresiva */}
-      <section className="py-16 bg-custom-gray from-pink-200 via-pink-100 to-pink-200 text-gray-800">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="py-8 bg-gradient-to-b bg-custom-gray text-gray-800">
+        <div className="max-w-4xl mx-auto text-center px-4">
           {/* Encabezado principal */}
-          <h3 className="text-4xl font-extrabold text-stone-700 mb-6">
+          <h3 className="text-4xl md:text-5xl font-extrabold text-yellow-900 mb-6">
             La boda será el 9 de noviembre de 2024 a las 5 PM
           </h3>
 
           {/* Cuenta regresiva */}
-          <div className="text-6xl font-bold text-lime-700 bg-white py-4 px-8 rounded-lg shadow-lg inline-block">
+          <div className="text-5xl md:text-6xl font-bold text-emerald-950 bg-white py-4 px-8 rounded-lg shadow-lg inline-block">
             {timeLeft > 0 ? formatTime(timeLeft) : "¡Es el gran día!"}
           </div>
 
           {/* Mensaje especial */}
-          <p className="mt-6 text-xl text-gray-600 italic">
+          <p className="mt-6 text-lg md:text-xl text-gray-600 italic">
             &quot;El amor es paciente, el amor es bondadoso, y el gran día está
             por llegar.&quot;
           </p>
@@ -89,15 +89,15 @@ const Invitation = () => {
               height={200}
               src="/Tendencias en ramos de novia.jpeg"
               alt="Imagen descriptiva"
-              className="rounded-lg shadow-md mx-auto"
+              className="rounded-lg shadow-md mx-auto max-w-full h-auto"
             />
           </div>
         </div>
       </section>
 
       {/* Sección de ubicación */}
-      <section className="py-16 bg-custom-gray text-gray-800">
-        <h3 className="text-4xl font-bold text-center mb-12 text-lime-700">
+      <section className="py-8 bg-custom-gray text-gray-800">
+        <h3 className="text-4xl font-bold text-center mb-12 mx-8 text-emerald-950">
           ¿En dónde se llevará a cabo?
         </h3>
 
@@ -143,9 +143,9 @@ const Invitation = () => {
       </section>
 
       {/* Sección "Padres de la novia" y "Padres del novio" */}
-      <section className="py-16 bg-custom-gray text-gray-800">
+      <section className="py-8 bg-custom-gray text-gray-800">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-10 text-stone-700">
+          <h1 className="text-4xl font-bold mb-10 text-yellow-900">
             Con la bendición de Dios y nuestros padres
           </h1>
 
@@ -154,7 +154,7 @@ const Invitation = () => {
             <h3 className="text-3xl font-bold text-yellow-800 mb-2">
               Padres de la novia
             </h3>
-            <p className="text-xl text-emerald-700 italic">Nelson y Miryam</p>
+            <p className="text-xl text-emerald-800 italic">Nelson y Miryam</p>
             <div className="flex justify-center mt-4">
               <Image
                 width={600}
@@ -171,7 +171,7 @@ const Invitation = () => {
             <h3 className="text-3xl font-bold text-yellow-800 mb-2">
               Padres del novio
             </h3>
-            <p className="text-xl text-emerald-700 italic">Clemencia</p>
+            <p className="text-xl text-emerald-800 italic">Clemencia</p>
             <div className="flex justify-center mt-4">
               <Image
                 width={600}
@@ -186,8 +186,10 @@ const Invitation = () => {
       </section>
 
       {/* Sección de vestimenta */}
-      <section className="py-16 text-center bg-custom-gray text-stone-700">
-        <h3 className="text-3xl font-bold">¿Cómo debes vestirte?</h3>
+      <section className="py-8 text-center bg-custom-gray text-yellow-900">
+        <h3 className="text-3xl font-bold text-emerald-950">
+          ¿Cómo debes vestirte?
+        </h3>
         <p className="mt-4 mb-12 text-lg">La vestimensa será formal.</p>
 
         {/* Contenedor para las imágenes y descripciones */}
@@ -201,9 +203,11 @@ const Invitation = () => {
               alt="Vestimenta formal para hombre"
               className="w-24 h-24 mb-4" // Tamaño de la imagen
             />
-            <h4 className="text-xl font-semibold">Ellos</h4>
+            <h4 className="text-xl font-semibold text-emerald-950">Ellos</h4>
             <p className="mt-2">Traje formal</p>
-            <p className="mt-2">Se reservará el color azul para el novio.</p>
+            <p className="mt-2 text-gray-700">
+              Se reservará el color azul para el novio.
+            </p>
           </div>
 
           {/* Vestimenta para mujer */}
@@ -215,9 +219,9 @@ const Invitation = () => {
               alt="Vestimenta formal para mujer"
               className="w-24 h-24 mb-4" // Tamaño de la imagen
             />
-            <h4 className="text-xl font-semibold">Ellas</h4>
+            <h4 className="text-xl font-semibold text-emerald-950">Ellas</h4>
             <p className="mt-2">Vestido formal</p>
-            <p className="mt-2">
+            <p className="mt-2 text-gray-700">
               Se reservará el color blanco y rojo para la novia y damas de
               honor.
             </p>
@@ -226,7 +230,7 @@ const Invitation = () => {
       </section>
 
       {/* Sección de regalos */}
-      <section className="py-16 text-center bg-custom-gray text-stone-700">
+      <section className="py-8 text-center bg-custom-gray text-yellow-900">
         <h3 className="text-3xl font-bold mb-6">Regalos</h3>
 
         {/* Icono de sobre */}
@@ -236,18 +240,18 @@ const Invitation = () => {
             height={100}
             src="/icons/sobre-regalo.png" // Asegúrate de tener un ícono de sobre en esta ruta
             alt="Sobre para regalo"
-            className="w-20 h-20 md:w-24 md:h-24"
+            className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
           />
         </div>
 
         {/* Texto con estilo refinado */}
-        <p className="mt-4 text-lg italic font-semibold text-gray-700">
+        <p className="mt-4 mx-4 md:mx-8 text-lg italic font-semibold text-gray-700">
           ¡Agradecemos tu presencia con una lluvia de sobres!
         </p>
 
         {/* Caja decorativa alrededor del mensaje */}
-        <div className="mt-8 max-w-md mx-auto p-4 bg-white shadow-md rounded-lg border border-gray-300">
-          <p className="text-md text-gray-600">
+        <div className="mt-8 mx-auto max-w-md p-4 bg-white shadow-lg rounded-lg border border-gray-300 transition-transform transform hover:scale-105">
+          <p className="text-md text-gray-600 text-center">
             Si deseas hacernos un regalo, te invitamos a hacerlo a través de la
             tradicional{" "}
             <span className="font-bold text-gray-700 italic">
@@ -259,7 +263,7 @@ const Invitation = () => {
       </section>
 
       {/* Confirmación de asistencia */}
-      <section className="py-16 text-center bg-custom-gray text-gray-800">
+      <section className="py-8 text-center bg-custom-gray text-emerald-950">
         <h3 className="text-3xl font-bold mb-8">Confirma tu asistencia</h3>
 
         {/* Botón con icono de WhatsApp */}
@@ -286,14 +290,14 @@ const Invitation = () => {
       </section>
 
       {/* Sección de cierre */}
-      <section className="py-16 text-center bg-custom-gray from-white to-gray-100 text-gray-800">
+      <section className="py-8 text-center bg-custom-gray from-white to-gray-100 text-gray-800">
         {/* Título "Con amor" */}
-        <h3 className="text-4xl font-bold mb-4 text-lime-700 tracking-wide">
+        <h3 className="text-4xl font-bold mb-4 text-yellow-900 tracking-wide">
           Con amor,
         </h3>
 
         {/* Nombres con estilo cursivo */}
-        <p className="text-3xl italic text-gray-700">Viviana & Jhon</p>
+        <p className="text-3xl italic text-emerald-950">Viviana & Jhon</p>
 
         {/* Decoración con icono de corazones */}
         <div className="flex justify-center mt-6">

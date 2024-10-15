@@ -1,17 +1,3 @@
-// import { Html, Head, Main, NextScript } from "next/document";
-
-// export default function Document() {
-//   return (
-//     <Html lang="en">
-//       <Head />
-//       <body className="antialiased">
-//         <Main />
-//         <NextScript />
-//       </body>
-//     </Html>
-//   );
-// }
-
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
@@ -26,7 +12,7 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
             rel="stylesheet"
           />
         </Head>

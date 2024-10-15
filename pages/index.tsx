@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div
-      className="relative h-screen w-screen bg-cover bg-center"
+      className="relative h-screen w-screen bg-cover bg-center italic"
       style={{
         backgroundImage: 'url("fondo.jpeg")', // Asegúrate de que esta sea la ruta correcta
         backgroundSize: "cover", // Para hacer que la imagen cubra toda la pantalla
@@ -25,7 +25,7 @@ export default function Home() {
           Te esperamos para celebrar con nosotros.
         </p> */}
         <button
-          className="mt-8 bg-stone-700 text-white py-2 px-4 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
+          className="mt-8 bg-stone-700 text-white py-2 px-4 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 italic"
           onClick={handleClick}
         >
           Ver Invitación

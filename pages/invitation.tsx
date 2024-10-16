@@ -128,8 +128,8 @@ const Invitation = () => {
           {/* Mensaje especial */}
           <p className="mt-6 text-md md:text-md text-gray-600 italic">
             &quot;El Amor Es Paciente, Es Bondadoso. El Amor No Es Envidioso Ni
-            Jactancioso Ni Orgulloso. No Se Comporta Con Rudeza, No Es Egosta,
-            No Se Enoja Fcilmente, No Guarda Rencor. El Amor No Se Deleita En La
+            Jactancioso Ni Orgulloso. No Se Comporta Con Rudeza, No Es Egoista,
+            No Se Enoja Facilmente, No Guarda Rencor. El Amor No Se Deleita En La
             Maldad Sino Que Se Regocija Con La Verdad. Todo Lo Disculpa, Todo Lo
             Cree, Todo Lo Espera, Todo Lo Soporta. El Amor Jamas Se
             Extingue.&quot;
@@ -187,7 +187,7 @@ const Invitation = () => {
               La recepción se llevará a cabo en Casa Cleves, un espacio acogedor
               donde celebraremos juntos.
             </p>
-            <p className="text-gray-700 font-semibold mb-4">Hora: 6:00 PM</p>
+            <p className="text-gray-700 font-semibold mb-4">Hora: de 6:00 PM a 01:00 AM</p>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0824863143807!2d-74.10237785428762!3d4.712629687666227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f84b60f144789%3A0x7eb81ba29a73eed2!2sCasa%20Cleves!5e0!3m2!1ses!2sco!4v1728006579553!5m2!1ses!2sco"
               width="100%"

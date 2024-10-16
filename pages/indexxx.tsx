@@ -1,6 +1,6 @@
 "use client";
 
-// import Head from "next/head";
+import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
 
@@ -66,15 +66,6 @@ const Invitation = () => {
           >
             Viviana & Jhon
           </h2>
-          <div className="flex justify-center mt-4">
-            <Image
-              width={600}
-              height={300}
-              src="/novios.jpg"
-              alt="Novios"
-              className="w-32 h-32 object-cover rounded-full shadow-lg"
-            />
-          </div>
         </section>
       </div>
 
@@ -126,16 +117,9 @@ const Invitation = () => {
           </div>
 
           {/* Mensaje especial */}
-          <p className="mt-6 text-md md:text-md text-gray-600 italic">
-            &quot;El Amor Es Paciente, Es Bondadoso. El Amor No Es Envidioso Ni
-            Jactancioso Ni Orgulloso. No Se Comporta Con Rudeza, No Es Egosta,
-            No Se Enoja Fcilmente, No Guarda Rencor. El Amor No Se Deleita En La
-            Maldad Sino Que Se Regocija Con La Verdad. Todo Lo Disculpa, Todo Lo
-            Cree, Todo Lo Espera, Todo Lo Soporta. El Amor Jamas Se
-            Extingue.&quot;
-          </p>
-          <p className="mt-4 text-sm md:text-sm text-gray-600 italic">
-            1 Corintios 13:4-8{" "}
+          <p className="mt-6 text-lg md:text-xl text-gray-600 italic">
+            &quot;El amor es paciente, el amor es bondadoso, y el gran día está
+            por llegar.&quot;
           </p>
 
           {/* Imagen descriptiva */}
@@ -160,9 +144,7 @@ const Invitation = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-16 space-y-12 lg:space-y-0 mx-auto max-w-6xl px-4">
           {/* Sección de la iglesia */}
           <div className="w-full lg:w-1/2 bg-white shadow-lg rounded-lg p-6">
-            <h4 className="flex justify-center items-center text-2xl font-bold mb-2 text-gray-700">
-              Iglesia
-            </h4>
+            <h4 className="text-2xl font-bold mb-2 text-gray-700">Iglesia</h4>
             <p className="text-gray-600 mb-1">
               La ceremonia se realizará en la Iglesia de Los Santos, un lugar
               lleno de historia y belleza.
@@ -180,7 +162,7 @@ const Invitation = () => {
 
           {/* Sección del lugar de recepción */}
           <div className="w-full lg:w-1/2 bg-white shadow-lg rounded-lg p-6">
-            <h4 className="text-2xl flex justify-center items-center font-bold mb-2 text-gray-700">
+            <h4 className="text-2xl font-bold mb-2 text-gray-700">
               Lugar de Recepción
             </h4>
             <p className="text-gray-600 mb-1">
@@ -217,7 +199,7 @@ const Invitation = () => {
               <Image
                 width={600}
                 height={300}
-                src="/papas-vivi.jpg"
+                src="/ruta-a-imagen-padres-novia.jpg"
                 alt="Padres de la novia"
                 className="w-32 h-32 object-cover rounded-full shadow-lg"
               />
@@ -227,14 +209,14 @@ const Invitation = () => {
           {/* Sección de los padres del novio */}
           <div>
             <h3 className="text-3xl font-bold text-yellow-800 mb-2">
-              Madre del novio
+              Padres del novio
             </h3>
             <p className="text-xl italic">Clemencia</p>
             <div className="flex justify-center mt-4">
               <Image
                 width={600}
                 height={300}
-                src="/mama-jhon.jpg"
+                src="/ruta-a-imagen-padres-novio.jpg"
                 alt="Padres del novio"
                 className="w-32 h-32 object-cover rounded-full shadow-lg"
               />
@@ -248,10 +230,10 @@ const Invitation = () => {
         <h3 className="text-3xl font-bold text-emerald-950">
           ¿Cómo debes vestirte?
         </h3>
-        {/* <p className="mt-4 mb-12 text-lg">La vestimensa será formal.</p> */}
+        <p className="mt-4 mb-12 text-lg">La vestimensa será formal.</p>
 
         {/* Contenedor para las imágenes y descripciones */}
-        <div className="flex flex-col mt-6 md:flex-row justify-center items-center gap-8">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           {/* Vestimenta para hombre */}
           <div className="flex flex-col items-center">
             <Image
@@ -264,7 +246,7 @@ const Invitation = () => {
             <h4 className="text-xl font-semibold text-emerald-950">Ellos</h4>
             <p className="mt-2">Traje formal</p>
             <p className="mt-2 text-gray-700">
-              &quot;Nota: Se reservará el color azul para el novio.&quot;
+              Se reservará el color azul para el novio.
             </p>
           </div>
 
@@ -280,8 +262,7 @@ const Invitation = () => {
             <h4 className="text-xl font-semibold text-emerald-950">Ellas</h4>
             <p className="mt-2">Vestido formal</p>
             <p className="mt-2 text-gray-700">
-              &quot;Nota: Se reservará el color rojo para las damas de
-              honor.&quot;
+              Se reservará el color rojo para las damas de honor.
             </p>
           </div>
         </div>
